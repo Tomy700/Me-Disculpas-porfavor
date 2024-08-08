@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Me puedes disculpar mi niña porfavor ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა 🤍🤍 </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            background-image: url(cina.jpeg);
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function accionParaCuandoEllaDigaQueSi(){
+            alert('sabia que me ibas a perdonar RAWR, De todas formas voy a estarte conquistando diario porque tu mereces ser tratada como lo mas hermoso de este planeta ❤️❤️ Graciaaas, de verdad que tu brillas mas que mil galaxias');
+        }
+
+        function mueveElBoton(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+            
+
+        }
+    </script>
+</head>
+<body>
+    <h3>¿Me puedes perdonar porfavor Diosa Durmiente? te amo demasiado ❤️❤️❤️ </h3>
+    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
+    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" />
+    <img src="chuec.png" width="200">
+</body>
+</html>
